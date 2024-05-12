@@ -178,8 +178,6 @@ public class Arquivo<T extends Registro> {
         return false;
     }
 
-
-
     public boolean update(T objAlterado) throws Exception {
         arq.seek(TAM_CABECALHO);
 
@@ -253,7 +251,6 @@ public class Arquivo<T extends Registro> {
 
         return false;
     }
-
 
     public void close() throws Exception {
         arq.close();
